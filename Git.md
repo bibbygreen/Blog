@@ -6,6 +6,7 @@
 ```
 git init  //初始化數據庫
 git status  //查看 git 狀態
+
 git add .  //將當前資料夾內檔案加入索引
 git add --all
 git add *.html 
