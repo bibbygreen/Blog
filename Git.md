@@ -7,6 +7,9 @@
 git init  //初始化數據庫
 git status  //查看 git 狀態
 git add .  //將當前資料夾內檔案加入索引
+git add --all
+git add *.html 
+
 git diff  //查看工作目錄與索引內檔案的不同
 git commit -m “修改內容”  //提交更新
 ```
@@ -29,6 +32,4 @@ git branch <分支名稱>  //git branch <分支名稱>
 git branch -d <分支名稱>  //git branch -d <分支名稱>
 git checkout <分支名稱>  //切換到指定分支最新版本
 git merge <分支名稱>  //git merge <分支名稱>
-
-
 ```
