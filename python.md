@@ -35,3 +35,19 @@ print(heights.get("Peter")
 print(heights.get("Bob")
 //None
 ```
+
+> append(), extend()
+```
+time = [9, 10 ,11]
+time.extend([12, 13])
+
+print(time)
+//[9, 10, 11, 12, 13]
+
+
+time2 = [9, 10 ,11]
+time2.append([12, 13])
+
+print(time2)
+//[9, 10, 11, [12, 13]]
+```
