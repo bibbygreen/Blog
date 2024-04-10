@@ -1,4 +1,12 @@
 ##python dictionary
+>建立字典
+```
+heights = dict(Mike=170, Peter=165)
+print(heights)
+//{"Mike": 170, "Peter": 165}
+```
+
+
 > 新增元素
 ```
 heights = {"Mike": 170, "Peter": 165}
@@ -17,4 +25,13 @@ for height in heights.items():
 ("Mike", 170)
 ("Peter", 165)
 
+```
+> get() 傳入要尋找的key，回傳其value
+```
+heights = {"Mike": 170, "Peter": 165}
+print(heights.get("Peter")
+//165
+
+print(heights.get("Bob")
+//None
 ```
